@@ -97,7 +97,7 @@ public class AirbusJobSearch extends DriverBase {
     }
 
     @AfterTest
-    @And("detect that the pop up is present on the screen")
+    @Then("detect that the pop up is present on the screen")
     public void checkPopupDisplayed() throws InterruptedException {
 
         PopUp rd3 =new PopUp(stepDefDriver);
